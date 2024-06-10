@@ -14,4 +14,33 @@ This dataset provides detailed information about pizza orders, likely from a piz
 **pizza_size:** Size of the pizza ordered.<br>
 **pizza_category:** Category of the pizza ordered.<br>
 **pizza_ingredients:** List of ingredients used in the pizza.<br>
-**pizza_name:** The full name of the pizza as it appears on the menu..<br>
+**pizza_name:** The full name of the pizza as it appears on the menu.<br>
+
+# Purpose
+The purpose of the Pizza Sales Analysis Dashboard is to provide a comprehensive visual representation of a pizzeria's sales data, enabling stakeholders to identify key performance indicators, analyze trends, pinpoint top and bottom-performing products, and make data-driven decisions to optimize operations and profitability.
+
+# Tools Used
+SQL Server Management Studio<br>
+SQL<br>
+Power BI<br>
+Power Query<br>
+
+# Steps to be followed:
+Imported raw sales data into SQL Server using the Import Task option in SQL Server Management Studio (SSMS).<br>
+Idnetified the KPIs for the given data.<br>
+Utilized SQL queries within SSMS to perform initial data analysis and validation.<br>
+Imported the analyzed data from SQL Server into Power BI for advanced visualization and dashboard creation.<br>
+Employed Power Query Editor in Power BI to clean and transform the data.<br>
+Loaded and applied the cleaned data into Power BI for further processing.<br>
+Designed an intuitive and user-friendly dashboard layout in Power BI.<br>
+Created new measures to aggregate and display key data points using DAX functions.<br>
+Incorporated various visualizations to enhance data representation, including:
+- Card charts for key performance indicators (KPIs)
+- Area charts for trend analysis
+- Donut charts for category breakdowns
+- Bar charts for comparative analysis
+
+Integrated slicer for filtering data by order date, enhancing interactivity.<br>
+Included additional informative KPIs to provide quick insights into key metrics.<br>
+Created interactive buttons to navigate to another page featuring visuals for the best and worst performing pizzas.<br>
+
