@@ -75,3 +75,10 @@ Enables quick identification of the best-selling pizza on the basis of size and 
 
 Overall, the dashboard provides a comprehensive view of sales performance, product analysis, trend identification, and insights into peak demand periods for effective decision-making.
 
+# Usage
+Leverage the provided dataset and Power BI reports to gain deep insights into pizza sales in a pizzeria. Tailor the analysis by integrating additional data sources or refining predictive models. Utilize this repository as a valuable resource for mastering Power BI techniques in pizza sales.<br>
+The Pizza Sales Analysis Dashboard can be utilized by pizzeria owners, managers, and stakeholders to monitor sales performance, identify trends, analyze product popularity, and make data-driven decisions to optimize operations and drive business growth.
+
+# Acknowledgments
+The Power BI dashboard template was inspired by various online resources and tutorials.<br>
+Special thanks to the call center data analytics community for their valuable insights and best practices.
