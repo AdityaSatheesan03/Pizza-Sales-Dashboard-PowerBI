@@ -26,21 +26,52 @@ Power BI<br>
 Power Query<br>
 
 # Steps to be followed:
-Imported raw sales data into SQL Server using the Import Task option in SQL Server Management Studio (SSMS).<br>
-Idnetified the KPIs for the given data.<br>
-Utilized SQL queries within SSMS to perform initial data analysis and validation.<br>
-Imported the analyzed data from SQL Server into Power BI for advanced visualization and dashboard creation.<br>
-Employed Power Query Editor in Power BI to clean and transform the data.<br>
-Loaded and applied the cleaned data into Power BI for further processing.<br>
-Designed an intuitive and user-friendly dashboard layout in Power BI.<br>
-Created new measures to aggregate and display key data points using DAX functions.<br>
-Incorporated various visualizations to enhance data representation, including:
-- Card charts for key performance indicators (KPIs)
-- Area charts for trend analysis
-- Donut charts for category breakdowns
-- Bar charts for comparative analysis
+1. Imported raw sales data into SQL Server using the Import Task option in SQL Server Management Studio (SSMS).<br>
+2. Idnetified the KPIs for the given data.<br>
+3. Utilized SQL queries within SSMS to perform initial data analysis and validation.<br>
+4. Imported the analyzed data from SQL Server into Power BI for advanced visualization and dashboard creation.<br>
+5. Employed Power Query Editor in Power BI to clean and transform the data.
+    + Replaced the initial values of column pizza_size to their long form.
+    + Added columns of month and day by extracting data from the order_date column.
+6. Loaded and applied the cleaned data into Power BI for further processing.<br>
+7. Designed an intuitive and user-friendly dashboard layout in Power BI.<br>
+8. Created new measures to aggregate and display key data points using DAX functions.<br>
+    - Added the KPI Average Pizza per Order.
+    - Added the KPI Average Order Value.
+    - Added the KPI Total Orders.
+9. Incorporated various visualizations to enhance data representation, including:
+    - Cards for key performance indicators (KPIs)
+    - Stacked Column Chart for daily trend analysis.
+    - Line Chart for monthly trend analysis.
+    - Donut Chart for category breakdowns.
+    - Funnel Chart for Pizzas sold by category.
+    - Stacked Bar Charts for comparative analysis of top 5 and bottom 5 pizzas. 
+10. Integrated slicer for filtering data by order date, enhancing interactivity.<br>
+11. Included additional informative KPIs to provide quick insights into key metrics.<br>
+12. Created interactive buttons to navigate to another page featuring visuals for the best and worst performing pizzas.<br>
 
-Integrated slicer for filtering data by order date, enhancing interactivity.<br>
-Included additional informative KPIs to provide quick insights into key metrics.<br>
-Created interactive buttons to navigate to another page featuring visuals for the best and worst performing pizzas.<br>
+# Features:
+**Revenue and Sales Overview**<br>
+Total revenue, average order value, total pizzas sold, total orders, and average pizzas per order are prominently displayed for a high-level understanding of sales performance.
+
+**Sales Trend Analysis**<br>
+Daily trend of total orders represented through a bar chart.
+Monthly trend of total orders depicted using a line chart, enabling identification of peak and low seasons.
+
+**Product Performance Analysis**<br>
+Sales breakdown by pizza category and pizza size using a donut chart.
+Total pizzas sold by category shown through a funnel chart.
+
+**Busiest Time Insights**<br>
+Busiest days of the week based on maximum orders received.
+Busiest months based on maximum orders received.
+
+**Best and Worst Sellers**<br>
+Top 5 and Bottom 5 pizzas ranked by revenue, quantity, and total orders.<br>
+Enables quick identification of best-selling and underperforming pizzas.
+
+**Sales Performance Highlights**<br>
+Enables quick identification of the best-selling pizza on the basis of size and category.<br>
+
+Overall, the dashboard provides a comprehensive view of sales performance, product analysis, trend identification, and insights into peak demand periods for effective decision-making.
 
